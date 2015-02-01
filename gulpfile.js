@@ -48,7 +48,7 @@ gulp.task('dev-styles', function() {
 })
 
 gulp.task('clean', function(done) {
-  rm(['.tmp', 'dist'], done)
+  rm(['.tmp', 'dist/*'], done)
 })
 
 gulp.task('styles', function() {
