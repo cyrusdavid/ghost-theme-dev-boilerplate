@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- build:css(.tmp) assets/styles/theme.css -->
+  <link rel="stylesheet" href="styles/bootstrap.css">
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 
@@ -20,7 +21,9 @@
 </head>
 <body class="{{body_class}}">
   {{{body}}}
-  <!-- build:js(.) assets/scripts/theme.js -->
+  {{ghost_foot}}
+  <!-- build:js({.,.tmp}) assets/scripts/theme.js -->
+  <script src="scripts/vendor.min.js"></script>
   <script src="scripts/main.js"></script>
   <!-- endbuild -->
 </body>

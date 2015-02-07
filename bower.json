@@ -1,0 +1,6 @@
+{
+  "name": "food",
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
